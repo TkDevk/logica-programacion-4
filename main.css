@@ -1,0 +1,66 @@
+*{
+    font-family:Arial, Helvetica, sans-serif
+}
+body{
+    background-color: #002f49;
+}
+.fibContainer{
+    margin:6rem auto;
+    border-radius: 0.5rem;
+    border:none;
+    background-color:#006ba5;
+    box-shadow: 0.4rem 0.4rem 0.3rem #005989;
+    display: block;
+    width: 30svw;
+    height: 40svh;
+}
+.fibContainer> h1{
+    padding: 1.3rem;
+    text-align: center;
+    color: #fff;
+    font-family:Arial, Helvetica, sans-serif
+}
+.input{
+    display: flex;
+}
+.input>article{
+    align-items: center;
+    margin: auto;
+    padding: 0.2rem;
+    display: flex;
+    flex-direction: column;
+}
+.input>article>input{
+    padding: 0.6rem;
+    width: 10svw;
+    border-radius: 0.7rem;
+}
+.input>article>label{
+    color: #fff;
+    padding: 0.3rem;
+
+}
+aside{
+   margin-top: 1.5rem;
+}
+button{
+    border: none;
+    border-radius: 0.5rem;
+    padding:1rem;
+    background-color: #005989;
+    color:#fff;
+    cursor: pointer;
+    margin-left: -50%;
+    box-shadow: 0.1rem 0.2rem 0.3rem #005989;
+    
+}
+.btnSect{
+    padding: 1rem;
+}
+#showFibo{
+    text-align: center;
+    color: #fff;
+}
+
+
+
